@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/bgr2.jpg) no-repeat;
+    background-color: #fcc3e4;
+	background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    position: relative;
+    width:450px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+	height:auto;
+	background:rgba(255, 255, 255, 0.548);
+	padding:10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.label{
+    padding: 20px 170px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+
+.input_login{
+    padding: 20px 40px;
+}
+
+.input_login .font{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0;
+}
+
+.input_login input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.input_login .font2{
+    margin-top: 30px;
+}
+
+.input_login button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input_login button:hover{
+    background: rgba(0, 0, 0, 0.726);
+}
+
+.input_login #user_error,
+.input_login #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #C62828;
+    background: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+} 
+
